@@ -1,1 +1,46 @@
 Linux Package Management Using RPM and YUM 
+Package Management in Linux
+A package is a compressed archive containing:
+• Software binaries
+• Configuration files
+• Metadata (version, dependencies, scripts)
+Package managers simplify software management by automating:
+• Installation
+• Upgrade
+• Removal
+• Dependency handling
+RPM (Red Hat Package Manager)
+rpm is a low-level package manager used in Red Hat–based distributions (RHEL, CentOS, Fedora).
+Key features:
+• Install packages
+• Query package information
+• Verify package integrity
+• Remove packages
+YUM (Yellowdog Updater Modified)
+yum is a high-level package manager that works on top of RPM and automatically resolves
+dependencies by fetching packages from repositories.
+System vs. Language Managers
+• System Managers (APT/YUM): Manage the Operating System and shared utilities.
+• Language Managers (NPM/Pip): Manage libraries for a specific programming language
+(e.g., JavaScript/Node.js). They usually reside "on top" of the system manager.
+DPKG (Debian Package)
+dpkg is the low-level package manager for Debian-based systems (like Ubuntu). It is
+used to install, remove, and provide information about .deb packages but does not
+automatically download dependencies.
+APT (Advanced Package Tool)
+apt is the high-level package manager that works on top of dpkg. It handles the retrieval
+of packages from remote repositories and automatically resolves complex dependencies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
